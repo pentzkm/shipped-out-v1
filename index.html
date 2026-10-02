@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fed Up — a workplace comedy about package delivery, bad attitudes, and worse management.">
+  <title>Fed Up | Workplace Comedy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Fed Up home">
+    <span class="brand-fed">FED</span><span class="brand-up">UP</span>
+    <small>PACKAGE DELIVERY</small>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">☰</button>
+  <nav id="site-nav">
+    <a href="#home">Home</a>
+    <a href="#show">The Show</a>
+    <a href="#employees">Meet the Employees</a>
+    <a href="#involved">Get Involved</a>
+    <a href="#behind">Behind the Scenes</a>
+    <a class="nav-cta" href="#shop">Shop</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">A WORKPLACE COMEDY SERIES</p>
+    <h1>DELIVERING PACKAGES.<br><span>DELIVERING PROBLEMS.</span></h1>
+    <p class="lede">Peak season is here. The packages are late. Management is worse. And everybody is officially <strong>FED UP.</strong></p>
+    <div class="actions">
+      <a class="button primary" href="#teaser">▶ Watch Teaser</a>
+      <a class="button secondary" href="#show">Meet the Disaster</a>
+    </div>
+    <p class="coming">COMING SOON</p>
+  </div>
+</section>
+
+<section class="quick-links" aria-label="Fed Up departments">
+  <a href="#track"><b>▣ Track Your Package</b><span>We have no idea.</span></a>
+  <a href="#complaint"><b>▤ File a Complaint</b><span>Go ahead. It won't help.</span></a>
+  <a href="#involved"><b>♟ Apply to Work Here</b><span>Think you can handle it?</span></a>
+  <a href="#employees"><b>★ Employee of the Month</b><span>It's probably Manny.</span></a>
+</section>
+
+<section class="section show-grid" id="show">
+  <div>
+    <p class="section-kicker">CLOCK IN. REGRET IT.</p>
+    <h2>ABOUT THE SHOW</h2>
+    <p>At a chaotic package-delivery terminal, a crew of misfit employees and their overworked manager fight to survive peak season. Deadlines are brutal. Management is worse. The customers aren't helping.</p>
+    <p>Somewhere between the loading dock and the last delivery of the day, everybody reaches the same conclusion: they're <strong>Fed Up.</strong></p>
+    <a class="text-link" href="#behind">Go behind the scenes →</a>
+  </div>
+  <div class="brand-card">
+    <img src="fed-up-brand-reference.jpg" alt="Fed Up brand concept with bulldog mascot, truck and uniforms">
+    <p>Temporary brand reference — replace with official production artwork when supplied.</p>
+  </div>
+</section>
+
+<section class="section dark" id="employees">
+  <p class="section-kicker">YOUR COWORKERS ARE THE PROBLEM</p>
+  <h2>MEET THE EMPLOYEES</h2>
+  <div class="employee-grid">
+    <article><div class="portrait">W</div><h3>Walt</h3><p>Delivery Supervisor</p></article>
+    <article><div class="portrait">D</div><h3>Dirk</h3><p>The Jerk</p></article>
+    <article><div class="portrait">M</div><h3>Manny</h3><p>The Lead</p></article>
+    <article><div class="portrait">?</div><h3>The Perfectionist</h3><p>Everything has a procedure.</p></article>
+    <article><div class="portrait">?</div><h3>The Conspiracy Theorist</h3><p>The scanners are listening.</p></article>
+    <article><div class="portrait">HR</div><h3>HR</h3><p>How can we make this worse?</p></article>
+  </div>
+  <p class="placeholder-note">Character names/photos are placeholders until the producer supplies the official cast list and approved images.</p>
+</section>
+
+<section class="section split" id="behind">
+  <div>
+    <p class="section-kicker">OFF THE CLOCK</p>
+    <h2>BEHIND THE SCENES</h2>
+    <p>Production updates, cast chaos, bloopers, table reads and everything that probably shouldn't make it past HR.</p>
+    <a class="button secondary" href="#">See Production Updates</a>
+  </div>
+  <div class="teaser-card" id="teaser">
+    <div class="play">▶</div>
+    <h3>TEASER COMING SOON</h3>
+    <p>Drop the official video link here when it's ready.</p>
+  </div>
+</section>
+
+<section class="section involved" id="involved">
+  <div>
+    <p class="section-kicker">GET ON THE ROUTE</p>
+    <h2>JOIN THE FED UP MAILING LIST</h2>
+    <p>Get show updates, behind-the-scenes content, casting news and merch drops.</p>
+  </div>
+  <form id="signup-form">
+    <label><span>Name</span><input type="text" name="name" placeholder="Your name"></label>
+    <label><span>Email</span><input type="email" name="email" placeholder="Email address" required></label>
+    <button class="button primary" type="submit">SIGN ME UP</button>
+    <small id="form-message">We hate spam too.</small>
+  </form>
+</section>
+
+<section class="section shop" id="shop">
+  <p class="section-kicker">REPRESENT THE MOVEMENT</p>
+  <h2>FED UP MERCH</h2>
+  <p>Shirts, hats and gear can live here when the official shop is ready.</p>
+  <a class="button secondary" href="#">Shop Coming Soon</a>
+</section>
+</main>
+
+<footer>
+  <div class="brand footer-brand"><span class="brand-fed">FED</span><span class="brand-up">UP</span><small>PACKAGE DELIVERY</small></div>
+  <p>Delivering packages. Delivering problems. Delivering laughs.</p>
+  <p class="legal">© <span id="year"></span> Fed Up. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
